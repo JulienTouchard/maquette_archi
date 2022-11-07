@@ -1,0 +1,59 @@
+@font-face {
+    font-family: "sego";
+    src: url(../font/SEGOEUI.TTF);
+}
+*{
+    font-family: "sego";
+}
+body{
+    margin: 0;
+}
+#brand{
+    padding: .5rem;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 .5rem;
+}
+#menu{
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+#menu li{
+    padding: 0.5rem;
+}
+#imgHeader{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-image: url(../img/architect.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #fff;
+}
+.bold{
+    font-weight: 900;
+}
+.br{
+    background-color: rgba(0, 0, 0, .7);
+    padding: .2rem;
+}
+#galery{
+    border: 1px green solid;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.imgFrame{
+    border: 1px red solid;
+    width: 24%;
+}
+.imgFrame img{
+    width: 100%;
+}
